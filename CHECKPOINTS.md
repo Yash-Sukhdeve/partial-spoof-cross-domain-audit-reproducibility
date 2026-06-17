@@ -42,17 +42,15 @@ verify the SHA256 to obtain the exact weights we used.
   reports 1.48% utt-EER / 13.67% frame-EER; **ours** reports 0.94% / 13.91%, a
   separate training run, see `TRAINING.md`).
 
-## Anonymized hosting (double-blind review)
-The bundled `55.pth` is also uploaded to an **anonymous Hugging Face model repo**
-so reviewers can fetch it without the 4 GB package:
+## Checkpoint hosting (Hugging Face)
+The bundled `55.pth` is also hosted on the Hugging Face Hub, so it can be fetched
+without downloading the full package:
 
-> Anonymized URL: **`<ANON-HF-URL, set after running checkpoints/mrm/upload.py>`**
+> **https://huggingface.co/sukhdeveyash/partial-spoof-mrm-audit**
 
-The checkpoint was scanned and contains no identifying paths/usernames. Upload
-helper: `checkpoints/mrm/upload.py`; model card: `checkpoints/mrm/HF_MODEL_CARD.md`.
 Verify SHA256 `5b753752f7c25370c6abf973f69f58e100dad4b5d3ea035872335358a876fdd1`
-after download. Only the MRM checkpoint is hosted by us; BAM/CFPRF stay at their
-authors' sources above. Replace with an identified link at camera-ready.
+after download. Only the MRM checkpoint is hosted by us; BAM and CFPRF stay at
+their authors' sources above.
 
 ## Evaluation datasets (external, not bundled)
 
