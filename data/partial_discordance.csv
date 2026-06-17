@@ -1,0 +1,10 @@
+dataset,subset,pair,n_discord,b_first_correct,c_second_correct,first_correct_pct,p_value
+PartialSpoof,full,BAM_vs_CFPRF,4114,3960,154,96.3,0.0
+PartialSpoof,full,BAM_vs_MRM,737,512,225,69.5,1.352012130778374e-26
+PartialSpoof,full,CFPRF_vs_MRM,4121,301,3820,7.3,0.0
+LlamaPartialSpoof,partial_only,BAM_vs_CFPRF,11528,6094,5434,52.9,8.285033699421089e-10
+LlamaPartialSpoof,partial_only,BAM_vs_MRM,12420,7304,5116,58.8,3.5201922608279235e-86
+LlamaPartialSpoof,partial_only,CFPRF_vs_MRM,3588,2558,1030,71.3,5.9612967463961045e-148
+HQ-MPSD,partial_only,BAM_vs_CFPRF,2637,2146,491,81.4,2.3263022503758104e-245
+HQ-MPSD,partial_only,BAM_vs_MRM,2213,1795,418,81.1,2.083384948171304e-202
+HQ-MPSD,partial_only,CFPRF_vs_MRM,1914,818,1096,42.7,2.2622832955915356e-10
